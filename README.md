@@ -11,7 +11,7 @@
 
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/your-username/Rename-Batch.git](https://github.com/Jetsvk/Rename-Batch)
+   git clone https://github.com/Jetsvk/Rename-Batch
 
 2. Copy rename.bat into the folder that contains the video files you want to rename.
 3. Customize the script based on your needs, using Notepad or any other text editing software.
