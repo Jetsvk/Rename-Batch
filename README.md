@@ -33,6 +33,4 @@
    - ```bash
      for %%f in ("[Koenime]*.mkv") do (
 - Function: Loops through all .mkv files in the current directory that start with [Koenime].
-
-
-> ⚠️ Make sure to back up your files before running, just in case if you encounter any issues while running the script.
+  
