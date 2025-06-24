@@ -1,6 +1,12 @@
 # Rename-Batch
 > Rename-Batch is a lightweight tool designed to help you rename all your video files in one go. Whether you're organizing your movie collection, tidying up downloaded lectures, or batch-editing filenames from your camera, this script saves time and clicks by handling the job all at once.
 
+
+## 📦 Features
+
+- Rename multiple video files in one click
+- Easy to customize
+
 ## 🚀 How to Use
 
 1. **Clone this repository**  
@@ -10,11 +16,12 @@
 2. Copy rename.bat into the folder that contains the video files you want to rename.
 3. Run rename.bat Just double-click the file, and it will automatically rename the videos based on the script logic.
 
-> [!NOTE]
-   - **for %%f in ("[Koenime]*.mkv") do (**
+> [!NOTE] How to costumize
+   - [ **for %%f in ("[Koenime]*.mkv") do (** ]
 - Loops through all .mkv files in the current directory that start with [Koenime].
+  
 - If you want to rename all .mkv files in the current directory.
-  - **for %%f in ("*.mkv") do (**
+  - [ **for %%f in ("*.mkv") do (** ]
 > ⚠️ make sure to update the line
 
  - call set "new=%%old: =%%"
