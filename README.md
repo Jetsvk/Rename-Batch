@@ -32,7 +32,7 @@
 4. Run rename.bat
 
 ### 📚 Documentation
-- 
+- https://www.youtube.com/watch?v=N6SaMYi9Gus
 
 ## ⚙️ How to customize
 > [!NOTE]
