@@ -60,6 +60,6 @@ Example:
  call set "new=%%old: [Koenime] GTM - =%%" -> call set "new=%%old: CAM - =%%"
  call set "new=%%new: (1080p) =%%" -> call set "new=%%new: (720p) =%%"
 
-Adapt it to fit your own file naming style or batch tags.
+Adjust it to fit with your own file naming style or batch tags.
   
   
