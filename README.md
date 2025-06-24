@@ -24,7 +24,7 @@
    call set "new=%%new: =%%"
 
 > to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
-4. Run rename.bat Just double-click the file, and it will automatically rename the videos based on the script logic.
+4. Run rename.bat
 
 ## ⚙️ How to customize
 > [!NOTE]
