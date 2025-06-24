@@ -55,7 +55,7 @@ This batch script automatically renames `.mkv` video files by removing unwanted 
   
 4. **Optional Customization**  
    You can modify the script’s logic by editing this line:
-```batch
+```bash
 Example: 
  call set "new=%%old: [Koenime] GTM - =%%" -> call set "new=%%old: CAM - =%%"
  call set "new=%%new: (1080p) =%%" -> call set "new=%%new: (720p) =%%"
