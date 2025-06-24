@@ -1,7 +1,7 @@
 # Rename-Batch
 > Rename-Batch is a lightweight tool designed to help you rename all your video files in one go. Whether you're organizing your movie collection, tidying up downloaded lectures, or batch-editing filenames from your camera, this script saves time and clicks by handling the job all at once.
 
-## How to Use
+## 🚀 How to Use
 
 1. **Clone this repository**  
    ```bash
@@ -13,9 +13,8 @@
 > [!NOTE]
 > ⚠️ make sure to update the line
 
-> • call set "new=%%old: =%%"
-
-> • call set "new=%%new: =%%"
+ - call set "new=%%old: =%%"
+ - call set "new=%%new: =%%"
 
 > to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
 
