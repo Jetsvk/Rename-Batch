@@ -10,6 +10,8 @@
 2. Copy rename.bat into the folder that contains the video files you want to rename.
 3. Run rename.bat Just double-click the file, and it will automatically rename the videos based on the script logic.
 
-> ⚠️ make sure to update the line > set "new=%%old: =%%" > to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
+> ⚠️ make sure to update the line > set "new=%%old: =%%"
+> and > call set "new=%%new: ()=%%"
+> to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
 
 > ⚠️ Make sure to back up your files before running, just in case you want to undo any changes.
