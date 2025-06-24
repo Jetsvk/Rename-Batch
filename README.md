@@ -23,7 +23,7 @@
  - ```bash
    call set "new=%%new: =%%"
 
-> to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
+> to match the naming pattern or logic for your files.
 4. Run rename.bat
 
 ## ⚙️ How to customize
@@ -33,4 +33,29 @@
    - ```bash
      for %%f in ("[Koenime]*.mkv") do (
 - Function: Loops through all .mkv files in the current directory that start with [Koenime].
+  
+2. If you want to rename all .mkv files in the current directory.
+   - ```bash
+     for %%f in ("*.mkv") do (
+- Function: Loops through all .mkv files in the current directory.
+
+### 🛠️ How this work
+This batch script automatically renames `.mkv` video files by removing unwanted patterns from their filenames. Here’s a quick overview of what happens:
+
+1. **File Selection**  
+   The script targets video files in the current folder—specifically those starting with `[Koenime]` and ending in `.mkv`.
+
+2. **Filename Cleanup**  
+   It removes specific parts of the filename, such as `[Koenime] GTM - ` and `(480p)`, to make them cleaner and more readable.
+
+3. **Renaming Process**  
+   Each file is renamed in place using the new, cleaned-up filename. For example:
+- ```bash
+  Before: [Koenime] GTM - 077 (480p).mkv After : 077.mkv
+  
+4. **Optional Customization**  
+   You can modify the script’s logic by editing this line:
+```batch
+ call set "new=%%old:[Koenime] GTM - =%%"
+  
   
