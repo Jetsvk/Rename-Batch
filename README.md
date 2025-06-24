@@ -31,16 +31,16 @@
 
 1. Customize based on specific names or batch patterns.
    - ```bash
-     for %%f in ("[Koenime]*.mkv") do (
-- Function: Loops through all .mkv files in the current directory that start with [Koenime].
+     for %%f in ("[Koenime]*.%%x") do (
+- Function: Loops through all video files in the current directory that start with [Koenime].
   
-2. If you want to rename all .mkv files in the current directory.
+2. If you want to rename all video files in the current directory.
    - ```bash
-     for %%f in ("*.mkv") do (
-- Function: Loops through all .mkv files in the current directory.
+     for %%f in ("*.%%x") do (
+- Function: Loops through all video files in the current directory.
 
 ### 🛠️ How this work
-This batch script automatically renames `.mkv` video files by removing unwanted patterns from their filenames. Here’s a quick overview of what happens:
+This batch script automatically renames all video files by removing unwanted patterns from their filenames. Here’s a quick overview of what happens:
 
 1. **File Selection**  
    The script targets video files in the current folder—specifically those starting with `[Koenime]` and ending in `.mkv`.
