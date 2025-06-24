@@ -17,11 +17,13 @@
 3. Run rename.bat Just double-click the file, and it will automatically rename the videos based on the script logic.
 
 > [!NOTE] How to costumize
-   - [ **for %%f in ("[Koenime]*.mkv") do (** ]
+   - ```bash
+     **for %%f in ("[Koenime]*.mkv") do (**
 - Loops through all .mkv files in the current directory that start with [Koenime].
   
 - If you want to rename all .mkv files in the current directory.
-  - [ **for %%f in ("*.mkv") do (** ]
+  - ```bash
+    **for %%f in ("*.mkv") do (**
 > ⚠️ make sure to update the line
 
  - call set "new=%%old: =%%"
