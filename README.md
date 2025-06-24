@@ -31,6 +31,9 @@
 > to match the naming pattern or logic for your files.
 4. Run rename.bat
 
+### 📚 Documentation
+- 
+
 ## ⚙️ How to customize
 > [!NOTE]
 
