@@ -51,7 +51,7 @@ This batch script automatically renames `.mkv` video files by removing unwanted 
 3. **Renaming Process**  
    Each file is renamed in place using the new, cleaned-up filename. For example:
 - ```bash
-  Before: [Koenime] GTM - 077 (480p).mkv After : 077.mkv
+  Before: [Koenime] GTM - 077 (480p).mkv | After : 077.mkv
   
 4. **Optional Customization**  
    You can modify the script’s logic by editing this line:
