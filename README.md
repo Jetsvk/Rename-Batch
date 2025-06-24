@@ -12,8 +12,11 @@
 
 > [!NOTE]
 > ⚠️ make sure to update the line
+
 > • call set "new=%%old: =%%"
+
 > • call set "new=%%new: =%%"
+
 > to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
 
 > ⚠️ Make sure to back up your files before running, just in case you want to undo any changes.
