@@ -43,7 +43,7 @@
 This batch script automatically renames all video files by removing unwanted patterns from their filenames. Here’s a quick overview of what happens:
 
 1. **File Selection**  
-   The script targets video files in the current folder—specifically those starting with `[Koenime]` and ending in `.mkv`.
+   The script targets video files in the current folder—specifically those starting with `[Koenime]`
 
 2. **Filename Cleanup**  
    It removes specific parts of the filename, such as `[Koenime] GTM - ` and `(480p)`, to make them cleaner and more readable.
