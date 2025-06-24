@@ -6,6 +6,11 @@
 
 - Rename multiple video files in one click
 - Easy to customize
+  
+> [!NOTE]
+> This script already supports the following video file formats:  
+> `.mkv`, `.mp4`, `.webm`, `.avi`, `.mov`, `.flv`, `.m4v`, and `.mpg`
+
 
 ## 🚀 How to Use
 
@@ -62,7 +67,3 @@ Example:
 
 Adjust it to fit with your own file naming style or batch tags.
   
-  
-> [!NOTE]
-> This script already supports the following video file formats:  
-> `.mkv`, `.mp4`, `.webm`, `.avi`, `.mov`, `.flv`, `.m4v`, and `.mpg`
