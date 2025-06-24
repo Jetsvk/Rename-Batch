@@ -26,8 +26,10 @@
   
 > ⚠️ make sure to update the line
 
- - call set "new=%%old: =%%"
- - call set "new=%%new: =%%"
+ - ```bash
+   call set "new=%%old: =%%"
+ - ```bash
+   call set "new=%%new: =%%"
 
 > to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
 
