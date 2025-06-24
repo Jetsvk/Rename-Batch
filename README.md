@@ -18,13 +18,12 @@
 
 ## ⚙️ How to customize
 > [!NOTE]
+
+1. Customize based on specific names or batch patterns.
    - ```bash
      for %%f in ("[Koenime]*.mkv") do (
-- Loops through all .mkv files in the current directory that start with [Koenime].
+- Function: Loops through all .mkv files in the current directory that start with [Koenime].
   
-- If you want to rename all .mkv files in the current directory.
-  - ```bash
-    for %%f in ("*.mkv") do (
 > ⚠️ make sure to update the line
 
  - call set "new=%%old: =%%"
