@@ -14,7 +14,17 @@
    git clone https://github.com/your-username/Rename-Batch.git](https://github.com/Jetsvk/Rename-Batch)
 
 2. Copy rename.bat into the folder that contains the video files you want to rename.
-3. Run rename.bat Just double-click the file, and it will automatically rename the videos based on the script logic.
+3. Customize the script based on your needs, using Notepad or any other text editing software.
+
+> ⚠️ Make sure to update the line
+
+ - ```bash
+   call set "new=%%old: =%%"
+ - ```bash
+   call set "new=%%new: =%%"
+
+> to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
+4. Run rename.bat Just double-click the file, and it will automatically rename the videos based on the script logic.
 
 ## ⚙️ How to customize
 > [!NOTE]
@@ -23,14 +33,6 @@
    - ```bash
      for %%f in ("[Koenime]*.mkv") do (
 - Function: Loops through all .mkv files in the current directory that start with [Koenime].
-  
-> ⚠️ make sure to update the line
 
- - ```bash
-   call set "new=%%old: =%%"
- - ```bash
-   call set "new=%%new: =%%"
-
-> to match the naming pattern or logic you want. You might also need to adjust it if your batch file has a different structure or name.
 
 > ⚠️ Make sure to back up your files before running, just in case you want to undo any changes.
